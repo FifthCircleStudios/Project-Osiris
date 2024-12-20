@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://dip2ge5wd7irp"]
+
+[ext_resource type="PackedScene" uid="uid://dxw7cledbpiia" path="res://addons/proto-csgs/proto_csg_box_3d.tscn" id="1_7bfv3"]
+[ext_resource type="Texture2D" uid="uid://cej3yoosomfd2" path="res://addons/proto-csgs/textures/dark/texture_13.png" id="2_vj3ch"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7qu03"]
+resource_local_to_scene = true
+albedo_texture = ExtResource("2_vj3ch")
+uv1_offset = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+
+[node name="DevTest" type="Node3D"]
+
+[node name="ProtoCSGBox3D" parent="." instance=ExtResource("1_7bfv3")]
+transform = Transform3D(30.2436, 0, 0, 0, 0.131058, 0, 0, 0, 32.75, 0.310469, -0.0439684, 1.27686)
+material = SubResource("StandardMaterial3D_7qu03")
