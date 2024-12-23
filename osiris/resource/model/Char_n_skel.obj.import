@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bp8dsefysvns0"
+path="res://.godot/imported/Char_n_skel.obj-82c9d06179042c307bd9deccff16c33d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Char_n_skel.obj-82c9d06179042c307bd9deccff16c33d.mesh"]
+
+source_file="res://osiris/resource/model/Char_n_skel.obj"
+dest_files=["res://.godot/imported/Char_n_skel.obj-82c9d06179042c307bd9deccff16c33d.mesh", "res://.godot/imported/Char_n_skel.obj-82c9d06179042c307bd9deccff16c33d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

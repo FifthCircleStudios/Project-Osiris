@@ -1,0 +1,9 @@
+[orchestration type="OScript" load_steps=2 format=3 uid="uid://c00jrhjh3yqio"]
+
+[obj type="OScriptGraph" id="OScriptGraph_7cl6t"]
+graph_name = &"EventGraph"
+flags = 8
+
+[resource]
+base_type = &"Node"
+graphs = Array[OScriptGraph]([SubResource("OScriptGraph_7cl6t")])

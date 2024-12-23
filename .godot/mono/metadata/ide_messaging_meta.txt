@@ -1,0 +1,2 @@
+﻿65410
+C:/Program Files (x86)/Steam/steamapps/common/Godot Engine/csharp/Godot_v4.3-stable_mono_win64.exe

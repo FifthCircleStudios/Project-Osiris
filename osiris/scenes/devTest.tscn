@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://dip2ge5wd7irp"]
+[gd_scene load_steps=10 format=3 uid="uid://dip2ge5wd7irp"]
 
 [ext_resource type="PackedScene" uid="uid://dxw7cledbpiia" path="res://addons/proto-csgs/proto_csg_box_3d.tscn" id="1_7bfv3"]
 [ext_resource type="Texture2D" uid="uid://cej3yoosomfd2" path="res://addons/proto-csgs/textures/dark/texture_13.png" id="2_vj3ch"]
+[ext_resource type="PackedScene" uid="uid://cjsxor0efx3bn" path="res://osiris/prefabs/player_character.tscn" id="3_0wj3i"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7qu03"]
 resource_local_to_scene = true
@@ -9,8 +10,39 @@ albedo_texture = ExtResource("2_vj3ch")
 uv1_offset = Vector3(0.5, 0.5, 0.5)
 uv1_triplanar = true
 
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_kixak"]
+
+[sub_resource type="Sky" id="Sky_ptgt3"]
+sky_material = SubResource("ProceduralSkyMaterial_kixak")
+process_mode = 3
+
+[sub_resource type="Environment" id="Environment_16wlb"]
+background_mode = 2
+background_energy_multiplier = 0.27
+sky = SubResource("Sky_ptgt3")
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.0
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_e1di8"]
+
+[sub_resource type="Compositor" id="Compositor_6bleh"]
+
 [node name="DevTest" type="Node3D"]
 
 [node name="ProtoCSGBox3D" parent="." instance=ExtResource("1_7bfv3")]
-transform = Transform3D(30.2436, 0, 0, 0, 0.131058, 0, 0, 0, 32.75, 0.310469, -0.0439684, 1.27686)
+transform = Transform3D(30.2436, 0, 0, 0, 0.131058, 0, 0, 0, 32.75, 0.310469, 3.06606, 1.27686)
 material = SubResource("StandardMaterial3D_7qu03")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_16wlb")
+camera_attributes = SubResource("CameraAttributesPractical_e1di8")
+compositor = SubResource("Compositor_6bleh")
+
+[node name="playerCharacter" parent="WorldEnvironment" instance=ExtResource("3_0wj3i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.290534, 3.13828, 2.27541)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="WorldEnvironment"]
+transform = Transform3D(1, 0, 0, 0, 0.73278, 0.680465, 0, -0.680465, 0.73278, 0, 13.8792, 9.47072)
+light_energy = 3.261
+light_volumetric_fog_energy = 6.913
+shadow_enabled = true
