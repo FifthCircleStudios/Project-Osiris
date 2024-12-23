@@ -1,8 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1734922801
+::res://::1734976024
 icon.svg::CompressedTexture2D::2917321337362278073::1734763173::1734763255::1::::<><>::
-new_script.torch::OScript::6579749095542905726::1734850465::0::1::::<><>::
-player_character.tscn::PackedScene::5443122183356289383::1734922801::0::1::::<><>::res://osiris/scripts/gdscript/camControl/camController.gd<>uid://bp8dsefysvns0::::res://osiris/resource/model/Char_n_skel.obj
 README.md::TextFile::-1::1734763171::0::1::::<><>::
 ::res://addons/::1734912048
 ::res://addons/cyclops_level_builder/::1734763171
@@ -171,20 +169,20 @@ configuration.tres::Resource/CyclopsConfig::4552822160491332919::1734763171::0::
 ::res://addons/cyclops_level_builder/data/snapping_tags/::1734763171
 snap_tag_grid.tres::Resource/SnappingTag::8751840536456137483::1734763171::0::1::::<><>::res://addons/cyclops_level_builder/snapping/snapping_tag.gd<>uid://c6mucdu7wcbkm::::res://addons/cyclops_level_builder/art/icons/snap_grid.svg<>res://addons/cyclops_level_builder/snapping/snapping_system_grid.gd
 snap_tag_vertex.tres::Resource/SnappingTag::2701268314969167950::1734763171::0::1::::<><>::res://addons/cyclops_level_builder/snapping/snapping_tag.gd<>uid://c0x011okomj8n::::res://addons/cyclops_level_builder/art/icons/snap_vertex.svg<>res://addons/cyclops_level_builder/snapping/snapping_system_vertex.gd
-::res://addons/cyclops_level_builder/data/tool_tags/::1734911834
-tool_tag_clip.tres::Resource/ToolTag::3819337305970137497::1734911834::0::1::::<><>::uid://bos2j51dp4j1s::::res://addons/cyclops_level_builder/art/icons/edit_clip.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_clip.gd
-tool_tag_create_block.tres::Resource/ToolTag::7010579622749172779::1734911834::0::1::::<><>::uid://bwasqbq4iqkn6::::res://addons/cyclops_level_builder/art/icons/block.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_block.gd
-tool_tag_create_cylinder.tres::Resource/ToolTag::1570769346915564800::1734911834::0::1::::<><>::uid://0vye3ue3ayvf::::res://addons/cyclops_level_builder/art/icons/create_cylinder.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_cylinder.gd
-tool_tag_create_prism.tres::Resource/ToolTag::5350210872568529503::1734911834::0::1::::<><>::uid://cbmwkjbju75er::::res://addons/cyclops_level_builder/art/icons/create_prism.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_prism.gd
-tool_tag_create_stairs.tres::Resource/ToolTag::1889256377739074821::1734911834::0::1::::<><>::uid://bwq4w4vf8um1f::::res://addons/cyclops_level_builder/art/icons/create_stairs.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_stairs.gd
+::res://addons/cyclops_level_builder/data/tool_tags/::1734977449
+tool_tag_clip.tres::Resource/ToolTag::3819337305970137497::1734977449::0::1::::<><>::uid://bos2j51dp4j1s::::res://addons/cyclops_level_builder/art/icons/edit_clip.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_clip.gd
+tool_tag_create_block.tres::Resource/ToolTag::7010579622749172779::1734977449::0::1::::<><>::uid://bwasqbq4iqkn6::::res://addons/cyclops_level_builder/art/icons/block.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_block.gd
+tool_tag_create_cylinder.tres::Resource/ToolTag::1570769346915564800::1734977449::0::1::::<><>::uid://0vye3ue3ayvf::::res://addons/cyclops_level_builder/art/icons/create_cylinder.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_cylinder.gd
+tool_tag_create_prism.tres::Resource/ToolTag::5350210872568529503::1734977449::0::1::::<><>::uid://cbmwkjbju75er::::res://addons/cyclops_level_builder/art/icons/create_prism.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_prism.gd
+tool_tag_create_stairs.tres::Resource/ToolTag::1889256377739074821::1734977449::0::1::::<><>::uid://bwq4w4vf8um1f::::res://addons/cyclops_level_builder/art/icons/create_stairs.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_stairs.gd
 tool_tag_duplicate.tres::Resource/ToolTag::1243303597019257823::1734763171::0::1::::<><>::res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_duplicate.gd
-tool_tag_edit_edge.tres::Resource/ToolTag::8567011790584946258::1734911834::0::1::::<><>::uid://d2da2j8ve48rt::::res://addons/cyclops_level_builder/art/icons/select_edge.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_edit_edge.gd
-tool_tag_edit_face.tres::Resource/ToolTag::5621672051451377274::1734911834::0::1::::<><>::uid://bi27fw31w4ssi::::res://addons/cyclops_level_builder/art/icons/select_face.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_edit_face.gd
-tool_tag_edit_vertex.tres::Resource/ToolTag::6126763692983000433::1734911834::0::1::::<><>::uid://cwn58lev5oopd::::res://addons/cyclops_level_builder/art/icons/select_vertex.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_edit_vertex.gd
-tool_tag_material_brush.tres::Resource/ToolTag::3044114409509615369::1734911834::0::1::::<><>::uid://dw8s7hrmnu34j::::res://addons/cyclops_level_builder/art/icons/material_brush.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_material_brush.gd
-tool_tag_move.tres::Resource/ToolTag::1230981689539081752::1734911834::0::1::::<><>::uid://cqy2x1s41ypbt::::res://addons/cyclops_level_builder/art/icons/move.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_move.gd
-tool_tag_rotate.tres::Resource/ToolTag::1105660025207351014::1734911834::0::1::::<><>::uid://1hu5mqwbm55w::::res://addons/cyclops_level_builder/art/icons/rotate.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_rotate.gd
-tool_tag_vertex_color_brush.tres::Resource/ToolTag::4213320183459654748::1734911834::0::1::::<><>::uid://be3f2j6mnl1yb::::res://addons/cyclops_level_builder/art/icons/vertex_color_brush.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_vertex_color_brush.gd
+tool_tag_edit_edge.tres::Resource/ToolTag::8567011790584946258::1734977449::0::1::::<><>::uid://d2da2j8ve48rt::::res://addons/cyclops_level_builder/art/icons/select_edge.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_edit_edge.gd
+tool_tag_edit_face.tres::Resource/ToolTag::5621672051451377274::1734977449::0::1::::<><>::uid://bi27fw31w4ssi::::res://addons/cyclops_level_builder/art/icons/select_face.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_edit_face.gd
+tool_tag_edit_vertex.tres::Resource/ToolTag::6126763692983000433::1734977449::0::1::::<><>::uid://cwn58lev5oopd::::res://addons/cyclops_level_builder/art/icons/select_vertex.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_edit_vertex.gd
+tool_tag_material_brush.tres::Resource/ToolTag::3044114409509615369::1734977449::0::1::::<><>::uid://dw8s7hrmnu34j::::res://addons/cyclops_level_builder/art/icons/material_brush.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_material_brush.gd
+tool_tag_move.tres::Resource/ToolTag::1230981689539081752::1734977449::0::1::::<><>::uid://cqy2x1s41ypbt::::res://addons/cyclops_level_builder/art/icons/move.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_move.gd
+tool_tag_rotate.tres::Resource/ToolTag::1105660025207351014::1734977449::0::1::::<><>::uid://1hu5mqwbm55w::::res://addons/cyclops_level_builder/art/icons/rotate.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_rotate.gd
+tool_tag_vertex_color_brush.tres::Resource/ToolTag::4213320183459654748::1734977449::0::1::::<><>::uid://be3f2j6mnl1yb::::res://addons/cyclops_level_builder/art/icons/vertex_color_brush.svg<>res://addons/cyclops_level_builder/resources/tool_tag.gd<>res://addons/cyclops_level_builder/tools/tool_vertex_color_brush.gd
 ::res://addons/cyclops_level_builder/docks/::1734763171
 ::res://addons/cyclops_level_builder/docks/convex_face_editor/::1734763171
 convex_face_editor_preview.gd::GDScript::-1::1734763171::0::1::::ConvexFaceEditorPreview<>SubViewport<>::
@@ -202,7 +200,7 @@ material_palette_viewport.tscn::PackedScene::1036570676893576714::1734763171::0:
 ::res://addons/cyclops_level_builder/docks/material_palette/commands/::1734763171
 cmd_mat_dock_add_materials.gd::GDScript::-1::1734763171::0::1::::CommandMaterialDockAddMaterials<>CyclopsCommand<>::
 cmd_mat_dock_remove_materials.gd::GDScript::-1::1734763171::0::1::::CommandMaterialDockRemoveMaterials<>CyclopsCommand<>::
-::res://addons/cyclops_level_builder/docks/material_palette/material_viewer/::1734911834
+::res://addons/cyclops_level_builder/docks/material_palette/material_viewer/::1734977449
 create_material_dialog.gd::GDScript::-1::1734763171::0::1::::CreateMaterialDialog<>Window<>::
 create_material_dialog.tscn::PackedScene::4547284657444740009::1734763171::0::1::::<><>::res://addons/cyclops_level_builder/docks/material_palette/material_viewer/create_material_dialog.gd
 line_input.gd::GDScript::-1::1734763171::0::1::::LineInput<>PopupPanel<>::
@@ -216,9 +214,9 @@ material_viewer.gd::GDScript::-1::1734763171::0::1::::MaterialViewer<>PanelConta
 material_viewer.tscn::PackedScene::7467033258265888736::1734763171::0::1::::<><>::res://addons/cyclops_level_builder/docks/material_palette/material_viewer/material_viewer.gd<>uid://cchlfqbh0djdn::::res://addons/cyclops_level_builder/docks/material_palette/material_viewer/material_groups_tree.tscn
 material_viewer_state.gd::GDScript::-1::1734763171::0::1::::MaterialViewerState<>Resource<>::
 material_viewer_state_res.tres::Resource/MaterialViewerState::6351911426821923321::1734763171::0::1::::<><>::res://addons/cyclops_level_builder/docks/material_palette/material_viewer/material_viewer_state.gd
-mat_bn_active_theme.tres::Theme::281341704773348496::1734911834::0::1::::<><>::
-mat_bn_normal_theme.tres::Theme::7788296169305119547::1734911834::0::1::::<><>::
-mat_bn_selected_theme.tres::Theme::2357851593577664863::1734911834::0::1::::<><>::
+mat_bn_active_theme.tres::Theme::281341704773348496::1734977449::0::1::::<><>::
+mat_bn_normal_theme.tres::Theme::7788296169305119547::1734977449::0::1::::<><>::
+mat_bn_selected_theme.tres::Theme::2357851593577664863::1734977449::0::1::::<><>::
 radio_button_group.gd::GDScript::-1::1734763171::0::1::::RadioButtonGroup<>Resource<>::
 ::res://addons/cyclops_level_builder/docks/snapping_properties/::1734763171
 snapping_properties_dock.gd::GDScript::-1::1734763171::0::1::::SnappingPropertiesDock<>Control<>::
@@ -308,8 +306,8 @@ data_vector_int.gd::GDScript::-1::1734763171::0::1::::DataVectorInt<>DataVector<
 data_vector_string.gd::GDScript::-1::1734763171::0::1::::DataVectorString<>DataVector<>::
 mesh_vector_data.gd::GDScript::-1::1734763171::0::1::::MeshVectorData<>Resource<>::
 tool_tag.gd::GDScript::-1::1734763171::0::1::::ToolTag<>Resource<>::
-::res://addons/cyclops_level_builder/shaders/::1734911834
-outline_shader.tres::VisualShader::4976330123338311102::1734911834::0::1::::<><>::
+::res://addons/cyclops_level_builder/shaders/::1734977449
+outline_shader.tres::VisualShader::4976330123338311102::1734977449::0::1::::<><>::
 tool_outline_shader.tres::VisualShader::6796597932207006307::1734763171::0::1::::<><>::
 vertex_shader.tres::Shader::7485550559320119999::1734763171::0::1::::<><>::
 ::res://addons/cyclops_level_builder/snapping/::1734763171
@@ -432,7 +430,7 @@ CopyPast_Fmod_Libs_Here.txt::TextFile::-1::1733927805::0::1::::<><>::
 ::res://addons/fmod/libs/macos/libGodotFmod.macos.editor.framework/::1734763172
 ::res://addons/fmod/libs/macos/libGodotFmod.macos.template_debug.framework/::1734763172
 ::res://addons/fmod/libs/macos/libGodotFmod.macos.template_release.framework/::1734763172
-::res://addons/fmod/libs/windows/::1734911190
+::res://addons/fmod/libs/windows/::1734975996
 CopyPast_Fmod_Libs_Here.txt::TextFile::-1::1733927799::0::1::::<><>::
 ::res://addons/fmod/tool/::1734763172
 ::res://addons/fmod/tool/inspectors/::1734763172
@@ -645,7 +643,7 @@ THIRDPARTY.txt::TextFile::-1::1734763172::0::1::::<><>::
 ::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/::1734763172
 ::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/_CodeSignature/::1734763172
 ::res://addons/godot-jolt/macos/godot-jolt_macos_editor.framework/Resources/::1734763172
-::res://addons/godot-jolt/windows/::1734911190
+::res://addons/godot-jolt/windows/::1734975996
 ::res://addons/godotsteam/::1734825236
 godotsteam.gdextension::GDExtension::-1::1728505316::0::1::::<><>::
 ::res://addons/godotsteam/linux32/::1734825236
@@ -656,11 +654,11 @@ godotsteam.gdextension::GDExtension::-1::1728505316::0::1::::<><>::
 ::res://addons/godotsteam/osx/libgodotsteam.macos.template_release.framework/::1734825236
 ::res://addons/godotsteam/osx/libgodotsteam.macos.template_release.framework/Resources/::1734825236
 ::res://addons/godotsteam/win32/::1734825236
-::res://addons/godotsteam/win64/::1734911190
+::res://addons/godotsteam/win64/::1734975996
 ::res://addons/luaAPI/::1734912048
 luaAPI.gdextension::GDExtension::-1::1734912048::0::1::::<><>::
 README.md::TextFile::-1::1734912048::0::1::::<><>::
-::res://addons/orchestrator/::1734911190
+::res://addons/orchestrator/::1734975997
 AUTHORS.md::TextFile::-1::1734825407::0::1::::<><>::
 CHANGELOG.md::TextFile::-1::1734825407::0::1::::<><>::
 orchestrator.gdextension::GDExtension::-1::1734825408::0::1::::<><>::
@@ -785,16 +783,34 @@ qt_tools.gd::GDScript::-1::1734145174::0::1::::<>EditorPlugin<>::
 tools_dock.gd::GDScript::-1::1734145174::0::1::::<>Control<>::
 tools_dock.tscn::PackedScene::7018185752080220743::1734145174::0::1::::<><>::res://addons/qt_tools/tools_dock.gd
 ::res://osiris/::1734922934
-::res://osiris/prefabs/::1734922934
+::res://osiris/prefabs/::1734977652
+characterPlayer.tscn::PackedScene::2171964045251795994::1734977652::0::1::::<><>::res://osiris/scripts/gdscript/camControl/camController.gd<>res://osiris/scripts/gdscript/movement/locomotion/locomotionGround.gd
 ::res://osiris/resource/::1734921856
-::res://osiris/resource/model/::1734921872
+::res://osiris/resource/model/::1734975959
 Char_n_skel.obj::Mesh::3507592318348914873::1734921870::1734921872::1::::<><>::
-::res://osiris/scenes/::1734922886
-devTest.tscn::PackedScene::7753388797504971745::1734922939::0::1::::<><>::uid://dxw7cledbpiia::::res://addons/proto-csgs/proto_csg_box_3d.tscn<>uid://cej3yoosomfd2::::res://addons/proto-csgs/textures/dark/texture_13.png<>uid://cjsxor0efx3bn::::res://player_character.tscn
-::res://osiris/scripts/::1734850392
-::res://osiris/scripts/csharp/::1734850545
-::res://osiris/scripts/csharp/camControl/::1734917677
-camController.cs::CSharpScript::-1::1734917677::0::1::::<><>::
-::res://osiris/scripts/gdscript/::1734918379
-::res://osiris/scripts/gdscript/camControl/::1734921471
-camController.gd::GDScript::-1::1734921471::0::1::::<>CharacterBody3D<>::
+::res://osiris/resource/model/placeholdCharacter/::1734976900
+cac-1734976888938.gltf::PackedScene::6108045025503035055::1734976898::1734977945::1::::<><>::
+Char_n_skel.fbx::PackedScene::206902639575897801::1734997532::1734976404::1::::<><>::
+::res://osiris/resource/model/placeholdCharacter/animations/::1734976267
+idle.fbx::AnimationLibrary::7450499207052630184::1734997532::1734976266::1::::<><>::
+jump.fbx::AnimationLibrary::7247722221292765679::1734997532::1734976266::1::::<><>::
+left strafe walking.fbx::AnimationLibrary::2534116979135934434::1734997532::1734976266::1::::<><>::
+left strafe.fbx::AnimationLibrary::527198449273228397::1734997532::1734976266::1::::<><>::
+left turn 90.fbx::AnimationLibrary::8462754183729139635::1734997532::1734976267::1::::<><>::
+left turn.fbx::AnimationLibrary::9149981611838797810::1734997532::1734976267::1::::<><>::
+right strafe walking.fbx::AnimationLibrary::653978070769893934::1734997532::1734976267::1::::<><>::
+right strafe.fbx::AnimationLibrary::6275881504680707975::1734997532::1734976267::1::::<><>::
+right turn 90.fbx::AnimationLibrary::978900723979123859::1734997532::1734976267::1::::<><>::
+right turn.fbx::AnimationLibrary::6740208146036485106::1734997532::1734976267::1::::<><>::
+running.fbx::AnimationLibrary::1038145827806569296::1734997532::1734976267::1::::<><>::
+walking.fbx::AnimationLibrary::690569793992329159::1734997532::1734976267::1::::<><>::
+::res://osiris/scenes/::1734927820
+devTest.tscn::PackedScene::7753388797504971745::1734927820::0::1::::<><>::uid://dxw7cledbpiia::::res://addons/proto-csgs/proto_csg_box_3d.tscn<>uid://cej3yoosomfd2::::res://addons/proto-csgs/textures/dark/texture_13.png<>uid://57d6vwje6x8e::::res://osiris/prefabs/characterPlayer.tscn<>res://addons/cyclops_level_builder/nodes/cyclops_block.gd<>res://addons/cyclops_level_builder/resources/data_vector_byte.gd<>res://addons/cyclops_level_builder/resources/data_vector_int.gd<>res://addons/cyclops_level_builder/resources/data_vector_float.gd<>res://addons/cyclops_level_builder/resources/mesh_vector_data.gd
+mainMenu.tscn::PackedScene::636639219415297097::1734927820::0::1::::<><>::
+::res://osiris/scripts/::1734926621
+::res://osiris/scripts/gdscript/::1734924804
+::res://osiris/scripts/gdscript/camControl/::1734977449
+camController.gd::GDScript::-1::1734977449::0::1::::<>Node3D<>::
+::res://osiris/scripts/gdscript/movement/::1734924813
+::res://osiris/scripts/gdscript/movement/locomotion/::1734977652
+locomotionGround.gd::GDScript::-1::1734977652::0::1::::<>CharacterBody3D<>::

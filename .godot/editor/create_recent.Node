@@ -1,6 +1,9 @@
+BoneAttachment3D
+Node3D
+AnimationPlayer
+AnimationTree
 CyclopsBlock
 CharacterBody3D
-Node3D
 Node
 HeightmapGenerator3D
 ChunkLoader3D
@@ -10,6 +13,3 @@ GaeaGenerator3D
 WorldEnvironment
 DirectionalLight3D
 Camera3D
-SpringArm3D
-CollisionShape3D
-MeshInstance3D

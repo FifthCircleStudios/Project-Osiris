@@ -11,6 +11,16 @@ func _physics_process(delta: float) -> void:
 	var forward := camera.global_basis.z
 	var right := camera.global_basis.x
 	var moveDirection := forward * rawInput.y + right * rawInput.x
+	if Input.is_action_pressed("move_forward"):
+		$playerModel/AnimationPlayer.play("Walking")
+	if Input.is_action_just_pressed("move_left"):
+		$playerModel/AnimationPlayer.play("Leftturn90")
+	if Input.is_action_just_pressed("move_right"):
+		$playerModel/AnimationPlayer.play("Rightturn90")
+	if Input.is_action_pressed("move_right"):
+		$playerModel/AnimationPlayer.play("Rightstrafewalking")
+	if Input.is_action_pressed("move_left"):
+		$playerModel/AnimationPlayer.play("Leftstrafewalking")
 	moveDirection.y = 0.0
 	moveDirection = moveDirection.normalized()
 	
