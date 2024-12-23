@@ -1,3 +1,6 @@
+CyclopsBlock
+CharacterBody3D
+Node3D
 Node
 HeightmapGenerator3D
 ChunkLoader3D
@@ -6,9 +9,7 @@ ChunkAwareGenerator3D
 GaeaGenerator3D
 WorldEnvironment
 DirectionalLight3D
-Node3D
 Camera3D
 SpringArm3D
 CollisionShape3D
 MeshInstance3D
-CharacterBody3D

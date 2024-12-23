@@ -1,4 +1,4 @@
-extends CharacterBody3D
+extends Node3D
 
 @export_category("Camera Settings")
 @export var mouseSensitivity := 0.25
@@ -7,7 +7,7 @@ extends CharacterBody3D
 
 var camInputDirection := Vector2.ZERO
 
-@onready var camPivot: Node3D = $camPivot
+@onready var camPivot: Node3D = $PlayerCharacter/camPivot
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("left_click"):

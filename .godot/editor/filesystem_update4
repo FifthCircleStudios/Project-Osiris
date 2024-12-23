@@ -17,3 +17,7 @@ res://addons/cyclops_level_builder/docks/material_palette/material_viewer/mat_bn
 res://addons/cyclops_level_builder/docks/material_palette/material_viewer/mat_bn_active_theme.tres
 res://osiris/scenes/devTest.tscn
 res://osiris/scripts/gdscript/camControl/camController.gd
+res://osiris/prefabs/player_character.tscn
+res://osiris/prefabs/characterPlayer.tscn
+res://osiris/scripts/gdscript/movement/locomotion/locomotionGround.gd
+res://osiris/scenes/mainMenu.tscn
